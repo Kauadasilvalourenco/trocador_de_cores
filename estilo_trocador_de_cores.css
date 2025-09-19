@@ -1,10 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 p#texto_saida {
-    position: absolute;
-    top: 42%;
-    left: 35%;
     width: 350px;
     background-color: #000000;
     border-radius: 15px;
@@ -17,9 +22,6 @@ p#texto_saida {
 }
 
 input#botao_mudar_cor {
-    position: absolute;
-    top: 55%;
-    left: 45%;
     width: 150px;
     height: 40px;
     background-color: transparent;
